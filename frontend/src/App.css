@@ -1,0 +1,11 @@
+#reg  {
+  width: 50%;
+  margin: auto;
+  border: 5px solid black;
+  text-align: center;
+}
+
+.labelStyle {
+  color: rgb(221, 115, 34);
+  font-size: 18px;
+}
