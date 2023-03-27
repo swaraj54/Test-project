@@ -1,11 +1,33 @@
-#reg  {
-  width: 50%;
-  margin: auto;
-  border: 5px solid black;
+#products {
+  border: 5px solid red;
+  width: 100%;
+  /* height: 500px; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#products > div {
+  width: 19%;
+  height: 400px;
+  border: 1px solid black;
   text-align: center;
 }
+#products > div > div {
+  height: 200px;
+  width: 100%;
+}
 
-.labelStyle {
-  color: rgb(221, 115, 34);
+#products > div > div > img {
+  height: 100%;
+  width: 100%;
+
+}
+
+#products > div > h1 {
   font-size: 18px;
+  margin-top: 50px;
+}
+#products > div > p {
+  font-size: 14px;
+  margin-top: 20px;
 }
